@@ -1,0 +1,1 @@
+ydb  --endpoint grpcs://ydb.serverless.yandexcloud.net:2135 --database /ru-central1/b1gldmiuao7dh3jn72uh/etn8e177hgfamskk5lum --sa-key-file authorized_key.json import file csv --path transactions_v2 --delimiter "," --skip-rows 1 --null-value "" transactions_v2.csv
